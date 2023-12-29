@@ -17,7 +17,7 @@ def get_credentials() -> dict:
     """
     Get credentials from environment variables
     """
-    print(config("PRIVATE_KEY").replace("\\n", "\n"))
+    # print(config("PRIVATE_KEY").replace("\\n", "\n"))
     return {
         "type": config("TYPE"),
         "project_id": config("PROJECT_ID"),
